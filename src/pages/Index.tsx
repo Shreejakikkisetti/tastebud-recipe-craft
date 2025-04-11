@@ -26,7 +26,8 @@ const Index = () => {
     }
   };
 
-  const featuredRecipes = mockRecipes.slice(0, 3);
+  // Display all recipes instead of just the first 3
+  const featuredRecipes = mockRecipes;
 
   return (
     <div className="min-h-screen bg-tastebud-beige">
